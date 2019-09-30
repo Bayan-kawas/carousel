@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
-import 'carosel.dart';
-void main() => runApp(CarouselDemo());
+import 'fetch_data.dart';
+void main() => runApp(MainFetchData());

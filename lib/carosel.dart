@@ -34,10 +34,8 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicator> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Images imgList = Images();
-    print(imgList.hotelImages);
     child = map<Widget>(
-      imgList.hotelImages,
+      imgList2,
       (index, i) {
         return Container(
           margin: EdgeInsets.all(5.0),
